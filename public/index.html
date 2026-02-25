@@ -12,8 +12,8 @@ html{scroll-behavior:smooth;overflow-x:hidden}
 body{font-family:'Barlow',sans-serif;background:var(--black);color:var(--white);overflow-x:hidden;-webkit-font-smoothing:antialiased}
 nav{position:fixed;top:0;left:0;right:0;z-index:6000;padding:20px 60px;display:flex;align-items:center;justify-content:space-between;transition:background .4s,padding .4s}
 nav.scrolled{background:rgba(10,10,10,.92);backdrop-filter:blur(20px);padding:14px 60px;border-bottom:1px solid rgba(232,168,23,.1)}
-.nav-logo{height:64px;transition:height .4s}
-nav.scrolled .nav-logo{height:50px}
+.nav-logo{height:80px;transition:height .4s}
+nav.scrolled .nav-logo{height:64px}
 .nav-links{display:flex;gap:40px;align-items:center}
 .nav-links a{color:var(--white);text-decoration:none;font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:600;letter-spacing:2px;text-transform:uppercase;position:relative;padding:4px 0;transition:color .3s}
 .nav-links a::after{content:'';position:absolute;bottom:0;left:0;width:0;height:2px;background:var(--gold);transition:width .4s var(--ease)}
@@ -158,7 +158,7 @@ footer{background:var(--dark);padding:80px 60px 40px;border-top:1px solid rgba(2
 .footer-bottom p{font-size:13px;color:var(--gray)}
 .footer-lic{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--gray)}
 .footer-lic svg{width:16px;height:16px;stroke:var(--gold);fill:none}
-.footer-logo{height:36px}
+.footer-logo{height:52px}
 .reveal{opacity:0;transform:translateY(40px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
 .reveal.visible{opacity:1;transform:translateY(0)}
 @media(max-width:1024px){.services-grid{grid-template-columns:repeat(2,1fr)}.projects-grid{grid-template-columns:repeat(2,1fr)}.why-grid{grid-template-columns:1fr}.why-image{height:300px}.hero-visual{display:none}.footer-grid{grid-template-columns:1fr 1fr;gap:40px}}
@@ -260,8 +260,8 @@ footer{background:var(--dark);padding:80px 60px 40px;border-top:1px solid rgba(2
 <button type="submit" class="submit-btn" id="submitBtn">Send Message</button>
 </form></div>
 <div class="contact-info">
-<div class="contact-block"><h4>Call Us</h4><p><a href="tel:0390001234">(03) 9000 1234</a></p><p style="font-size:13px;color:var(--gray);margin-top:4px">24/7 Emergency Line</p></div>
-<div class="contact-block"><h4>Email</h4><p><a href="mailto:info@powerdriveelectrical.com.au">info@powerdriveelectrical.com.au</a></p></div>
+<div class="contact-block"><h4>Call Us</h4><p><a href="tel:+61409404233">+61 409 404 233</a></p><p style="font-size:13px;color:var(--gray);margin-top:4px">24/7 Emergency Line</p></div>
+<div class="contact-block"><h4>Email</h4><p><a href="mailto:admin@powerdriveelectrical.com.au">admin@powerdriveelectrical.com.au</a></p></div>
 <div class="contact-block"><h4>Office</h4><p>Melbourne, VIC — Servicing all of Greater Melbourne</p></div>
 <div class="contact-block"><h4>Business Hours</h4><div class="hours-grid"><span class="hours-day">Mon — Fri</span><span class="hours-time">7:00 AM — 5:00 PM</span><span class="hours-day">Saturday</span><span class="hours-time">8:00 AM — 2:00 PM</span><span class="hours-day">Sunday</span><span class="hours-time">Emergency Only</span></div></div>
 </div>
@@ -276,9 +276,9 @@ footer{background:var(--dark);padding:80px 60px 40px;border-top:1px solid rgba(2
 <div class="footer-brand"><img class="footer-logo" id="footerLogo" alt="Power Drive Electrical"><p>Melbourne's trusted electrical contractors delivering premium solutions with precision and safety since 2010.</p></div>
 <div class="footer-col"><h5>Services</h5><a href="#">Residential</a><a href="#">Commercial</a><a href="#">Solar</a><a href="#">Switchboards</a><a href="#">Safety Audits</a></div>
 <div class="footer-col"><h5>Company</h5><a href="#" onclick="showPage('home');return false">Home</a><a href="#" onclick="showPage('projects');return false">Projects</a><a href="#" onclick="showPage('contact');return false">Contact</a></div>
-<div class="footer-col"><h5>Contact</h5><a href="tel:0390001234">(03) 9000 1234</a><a href="mailto:info@powerdriveelectrical.com.au">info@powerdrive.com.au</a><a href="#">Melbourne, VIC</a></div>
+<div class="footer-col"><h5>Contact</h5><a href="tel:+61409404233">+61 409 404 233</a><a href="mailto:admin@powerdriveelectrical.com.au">admin@powerdriveelectrical.com.au</a><a href="#">Melbourne, VIC</a></div>
 </div>
-<div class="footer-bottom"><p>&copy; 2026 Power Drive Electrical. All rights reserved.</p><div class="footer-lic"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Licensed Victorian Electrical Contractor</div></div>
+<div class="footer-bottom"><p>&copy; 2026 Power Drive Electrical. All rights reserved — Made with love by Mitch &#10084;&#65039;</p><div class="footer-lic"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>REC: 34187 | ABN: 81 665 153 953 | ACN: 665 153 953</div></div>
 </footer>
 
 <script>
